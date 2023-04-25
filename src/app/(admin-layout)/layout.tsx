@@ -1,4 +1,5 @@
 import "../globals.css";
+import Link from "next/link";
 
 export const metadata = {
   title: "Create Next App",
@@ -14,6 +15,16 @@ export default function AdminRootLayout({
     <html lang="en">
       <body>
         <div>This is Admin Layout.</div>
+        <nav>
+          <ul>
+            <li>
+              <Link href="/admin/dashboard">Dashboard</Link>
+            </li>
+            <li>
+              <Link href="/admin/settings">Settings</Link>
+            </li>
+          </ul>
+        </nav>
         {children}
       </body>
     </html>
