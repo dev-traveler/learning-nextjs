@@ -12,7 +12,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>
+      <body className="p-4 bg-blue-600 border-2 border-stone-50 border-dotted">
         <div>This is Content Layout.</div>
         {children}
       </body>
