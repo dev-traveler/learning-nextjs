@@ -13,7 +13,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <div>This is Content Layout.</div>
+        <div>This is Admin Layout.</div>
         {children}
       </body>
     </html>

@@ -3,7 +3,9 @@ export default function Page({ params }: { params: { slug: string[] } }) {
     <div>
       <h1>This is Shop page.</h1>
       {params.slug.map((slug, index) => (
-        <span key={index}>/{slug}</span>
+        <span key={index} className="text-purple-700">
+          /{slug}
+        </span>
       ))}
     </div>
   );
