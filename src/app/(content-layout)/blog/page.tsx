@@ -1,10 +1,10 @@
-import PostLink from "./PostList";
+import PostList from "./PostList";
 
 export default function BlogPage() {
   return (
     <div>
       <h1>Blog Page</h1>
-      <PostLink
+      <PostList
         posts={[
           { id: "1", categoryId: "1", slug: "post-1", title: "Post 1" },
           { id: "2", categoryId: "1", slug: "post-2", title: "Post 2" },
