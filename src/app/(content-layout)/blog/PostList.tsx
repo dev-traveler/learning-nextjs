@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-interface PostLinkProps {
+interface PostListProps {
   posts: Post[];
 }
 
@@ -11,7 +11,7 @@ interface Post {
   title: string;
 }
 
-export default function PostLink({ posts }: PostLinkProps) {
+export default function PostList({ posts }: PostListProps) {
   return (
     <ul>
       {posts.map((post) => (
